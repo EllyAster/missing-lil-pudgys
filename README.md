@@ -1,6 +1,6 @@
 # Missing Lil Pudgys Scanner
 
-This tool checks your list of unminted Lil Pudgys, downloads a preview image for each one, and shows you which corresponding Pudgy Penguins are currently available to buy on OpenSea.
+This tool checks the list of unminted Lil Pudgys, downloads a preview image for each one, and shows you which corresponding Pudgy Penguins are currently available to buy on OpenSea.
 
 Everything is saved to an `output/` folder when it's done.
 
