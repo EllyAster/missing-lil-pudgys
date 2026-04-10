@@ -1,0 +1,19 @@
+"""
+Scans your missing Lil Pudgys, downloads their preview images,
+and generates a contact sheet showing all unminted tokens.
+
+Run with:
+    python3 lilpudgys.run
+
+To also check which corresponding Pudgy Penguins are currently listed for sale,
+set your OpenSea API key first, then run:
+    python3 lilpudgys.run --check-buyable
+
+All output is saved to the output/ folder.
+Run python3 lilpudgys.run --help to see all options.
+"""
+import sys
+from src.app import main
+
+if __name__ == "__main__":
+    sys.exit(main())

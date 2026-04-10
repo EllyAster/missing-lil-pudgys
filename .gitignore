@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+
+# Runtime output
+output/
+
+# Secrets
+.env
+*.env
+# Add your OpenSea key to sample_data/opensea_key.txt — do not commit it with a real key.
+# If you are a developer, add the line below to your local .git/info/exclude instead.
+# sample_data/opensea_key.txt

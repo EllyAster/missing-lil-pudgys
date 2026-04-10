@@ -1,0 +1,17 @@
+version: "3.9"
+
+services:
+  lil-scan:
+    build: .
+    environment:
+      - OPENSEA_API_KEY=${OPENSEA_API_KEY}
+    volumes:
+      - ./sample_data:/app/sample_data:ro
+      - ./output:/app/output
+    command:
+      - --input
+      - /app/sample_data/missing_ids.txt
+      - --output
+      - /app/output
+      - --download-images
+      - --check-buyable
