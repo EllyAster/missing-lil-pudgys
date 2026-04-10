@@ -1,5 +1,7 @@
 # Missing Lil Pudgys Scanner
 
+![Lil Pudgys](https://i2c.seadn.io/collection/lilpudgys/overview/module/0/narrative/media/0/4fd8a2455b99470d075c590da2aaaa/fe4fd8a2455b99470d075c590da2aaaa.jpeg?w=1920)
+
 This tool checks the list of unminted Lil Pudgys, downloads a preview image for each one, and shows you which corresponding Pudgy Penguins are currently available to buy on OpenSea.
 
 Everything is saved to an `output/` folder when it's done.
