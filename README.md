@@ -136,3 +136,11 @@ Useful flags:
 | `--no-contact-sheet` | Don't generate the image grid |
 | `--concurrency 10` | Run faster with more parallel connections |
 | `--verbose` | Show detailed logs for every request |
+
+---
+
+## Questions or Issues?
+
+Got stuck or something's not working? Feel free to reach out — happy to help.
+
+> 𝕏 **[@Toto](https://x.com/Toto)**
